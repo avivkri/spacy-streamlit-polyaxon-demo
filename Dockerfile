@@ -5,3 +5,4 @@ LABEL maintainer="Polyaxon, Inc. <contact@polyaxon.com>"
 COPY . /polyaxon
 WORKDIR /polyaxon
 RUN pip3 install -r requirements.txt
+RUN pip3 install --upgrade typing-extensions
